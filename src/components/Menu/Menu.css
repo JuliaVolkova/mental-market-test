@@ -1,13 +1,28 @@
-.menu-button {
-    width: 1.5em;
-    height: 1.5em;
-    border: 1px solid black;
+.menu-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    width: 600px;
+    min-height: 100vh;
+    z-index: 100;
+    background-color: gray;
+}
+
+.close-button {
+    width: 4em;
+    height: 4em;
     padding: 0;
     margin: 0;
     cursor: pointer;
-    /*border: none;*/
+    border: none;
     background-color: transparent;
-    background-image: url('%PUBLIC_URL%/img/menuPie.svg');
+    background-image: url(closeMark.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .hide-text {
@@ -16,11 +31,42 @@
     overflow: hidden;
 }
 
-.menu {
-    display: none;
+.visually-hidden {
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding:0;
+    border:0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
 }
+
+.menu-container-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1em;
+    padding: 2em;
+    box-shadow: 0 0.5em 0 -3px lightgray;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 2em;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+}
+
 .menu-item {
     list-style: none;
+    padding: 2em;
 }
 
 .link {
@@ -35,5 +81,9 @@ a:hover {
     color: blueviolet;
     cursor: pointer;
     text-decoration: none;
+}
+
+.exit {
+    color: lightgray;
 }
 

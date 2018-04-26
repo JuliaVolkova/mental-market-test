@@ -1,11 +1,10 @@
 import React, { Fragment } from 'react';
-import './Main.css';
+import './Favorites.css';
 
-export const Main = () => (
+export const Favorites = () => (
     <Fragment>
         <div className="favorites-header">
             <h2 className="favorites-title">Избранное</h2>
-            <button type="button" className=" like-button hide-text">Мне нравится</button>
             <p>Показать всё</p>
         </div>
         <div className="main-container">
