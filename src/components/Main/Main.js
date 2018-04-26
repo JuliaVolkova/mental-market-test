@@ -6,7 +6,7 @@ export const Main = () => (
         <section className="main-page">
             <p className="Message">Наверное, здесь должна быть главная страница :)</p>
             <p className="Message">Но пока что здесь ничего интересного.</p>
-            <p className="Message">Кликните на кнопку меню и перехагрузите страницу :)</p>
+            <p className="Message">Кликните на кнопку меню и перезагрузите страницу :)</p>
         </section>
     </Fragment>
 );

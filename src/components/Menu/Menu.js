@@ -1,21 +1,21 @@
 import React from 'react';
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { BrowserRouter, Link } from "react-router-dom";
 import './Menu.css';
 
-export const Menu = () => (
+export const Menu = (props) => (
     <div className="menu-container visible">
         <div className="menu-container-header">
-            <button className="close-button hide-text">
+            <button className="close-button hide-text" onClick={props.handleClick}>
                 Close
             </button>
             <h2 className="menu-header">Мой профиль</h2>
         </div>
 
-        <Router>
+        <BrowserRouter>
             <nav className="menu">
                 <ul>
                     <li className="menu-item">
-                        <Link  to="/" className="link">Настройки профиля</Link>
+                        <Link to="/" className="link">Настройки профиля</Link>
                     </li>
                     <li className="menu-item">
                         <Link to="/favorites" className="link">Избранное</Link>
@@ -31,7 +31,7 @@ export const Menu = () => (
                     </li>
                 </ul>
             </nav>
-        </Router>
+        </BrowserRouter>
     </div>
 );
 

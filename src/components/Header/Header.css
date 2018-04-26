@@ -32,3 +32,18 @@ img {
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
+.close-button {
+    width: 3em;
+    height: 3em;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    background-image: url(closeMark.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+

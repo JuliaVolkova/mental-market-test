@@ -89,3 +89,13 @@
     background-color: blue;
     color: white;
 }
+
+.arrow-down::after {
+    display: inline-block;
+    margin-left: 0.4em;
+    content: '';
+    vertical-align: baseline;
+    border-left: 0.5em solid transparent;
+    border-right: 0.5em solid transparent;
+    border-top: 0.5em solid black;
+}

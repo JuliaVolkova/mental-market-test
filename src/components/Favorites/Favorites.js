@@ -5,7 +5,7 @@ export const Favorites = () => (
     <Fragment>
         <div className="favorites-header">
             <h2 className="favorites-title">Избранное</h2>
-            <p>Показать всё</p>
+            <p className="arrow-down">Показать всё</p>
         </div>
         <div className="main-container">
             <ul className="favorites">
