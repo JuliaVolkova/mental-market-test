@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em 1em;
+    box-shadow: 0 0.5em 0 -3px lightgray;
+}
+
+.avatar {
+    width: 10%;
+    min-height: 50px;
+    margin: 0;
+    padding: 0;
+    border-radius: 6%;
+    background-color: lightgray;
+}
+
+img {
+     margin: 1em auto
+ }

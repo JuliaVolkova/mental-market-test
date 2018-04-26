@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>close</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="избранное" transform="translate(-27.000000, -77.000000)" fill="#4A4A4A">
+            <g id="header" transform="translate(0.000000, 1.000000)">
+                <g id="close" transform="translate(25.000000, 73.000000)">
+                    <rect id="Rectangle" transform="translate(20.000000, 21.000000) rotate(-315.000000) translate(-20.000000, -21.000000) " x="-4" y="18" width="48" height="6" rx="3"></rect>
+                    <rect id="Rectangle" transform="translate(20.000000, 21.000000) rotate(-45.000000) translate(-20.000000, -21.000000) " x="-4" y="18" width="48" height="6" rx="3"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

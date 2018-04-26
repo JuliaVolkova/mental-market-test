@@ -1,0 +1,39 @@
+.menu-button {
+    width: 1.5em;
+    height: 1.5em;
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    /*border: none;*/
+    background-color: transparent;
+    background-image: url('%PUBLIC_URL%/img/menuPie.svg');
+}
+
+.hide-text {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.menu {
+    display: none;
+}
+.menu-item {
+    list-style: none;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:active,
+a:focus,
+a:hover {
+    color: blueviolet;
+    cursor: pointer;
+    text-decoration: none;
+}
+
