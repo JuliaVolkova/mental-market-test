@@ -4,7 +4,7 @@ import './Announcement.css';
 export const Announcement = () => (
     <Fragment>
         <div className="announcement-header">
-            <h2 className="favorites-title">Иои объявления</h2>
+            <h2 className="favorites-title">Mои объявления</h2>
             <p>Показать всё</p>
         </div>
         <div className="main-container">

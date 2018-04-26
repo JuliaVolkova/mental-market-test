@@ -10,10 +10,34 @@ export const Favorites = () => (
         <div className="main-container">
             <ul className="favorites">
                 <li className="favorites-item">
-                    <span className="favorites-item-text">Бытовая техника</span>
-                    <button type="button" className=" like-button hide-text">
-                        Мне нравится
-                    </button>
+                    <ul className="favorites-inner">
+                        <li className="favorites-item-inner">
+                            <span className="favorites-item-text">Бытовая техника</span>
+                            <button type="button" className=" like-button hide-text">
+                                Мне нравится
+                            </button>
+                        </li>
+                    </ul>
+                </li>
+                <li className="favorites-item">
+                    <ul className="favorites-inner">
+                        <li className="favorites-item-inner">
+                            <span className="favorites-item-text">Бытовая техника</span>
+                            <button type="button" className=" like-button hide-text">
+                                Мне нравится
+                            </button>
+                        </li>
+                    </ul>
+                </li>
+                <li className="favorites-item">
+                    <ul className="favorites-inner">
+                        <li className="favorites-item-inner">
+                            <span className="favorites-item-text">Бытовая техника</span>
+                            <button type="button" className=" like-button hide-text">
+                                Мне нравится
+                            </button>
+                        </li>
+                    </ul>
                 </li>
             </ul>
             <button className="add-button">Добавить еще</button>
