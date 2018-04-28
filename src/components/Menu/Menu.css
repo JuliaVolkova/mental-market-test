@@ -50,6 +50,12 @@
     margin: 0.5em;
 }
 
+@media (max-width: 320px) {
+    .menu-header {
+        font-size: 1.5em;
+    }
+}
+
 .menu ul {
     padding: 0;
     margin: 0;

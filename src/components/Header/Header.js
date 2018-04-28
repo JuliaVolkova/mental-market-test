@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
+import { Menu } from "../Menu/Menu";
 import './Header.css';
-import {Menu} from "../Menu/Menu";
 
 export class Header extends Component {
     constructor() {

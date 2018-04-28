@@ -1,11 +1,14 @@
-.message {
-    text-align: center;
-    margin: 1em;
-}
-
 .main-page {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 1em;
 }
+
+.message {
+    text-align: center;
+    margin: 0 0.5em;
+    padding: 1em;
+}
+

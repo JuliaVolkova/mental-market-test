@@ -20,6 +20,12 @@
     margin: 1em;
 }
 
+@media (max-width: 320px) {
+    .favorites-title {
+        font-size: 1.2em;
+    }
+}
+
 .favorites-item {
     display: flex;
     align-items: flex-start;

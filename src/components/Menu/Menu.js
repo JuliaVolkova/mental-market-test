@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Link } from "react-router-dom";
+import Link from "react-router-dom/es/Link";
 import './Menu.css';
 
 export const Menu = (props) => (
@@ -11,27 +11,25 @@ export const Menu = (props) => (
             <h2 className="menu-header">Мой профиль</h2>
         </div>
 
-        <BrowserRouter>
-            <nav className="menu">
-                <ul>
-                    <li className="menu-item">
-                        <Link to="/" className="link">Настройки профиля</Link>
-                    </li>
-                    <li className="menu-item">
-                        <Link to="/favorites" className="link">Избранное</Link>
-                    </li>
-                    <li className="menu-item">
-                        <Link to="/announcement" className="link">Мои объявления</Link>
-                    </li>
-                    <li className="menu-item">
-                        <Link to="" className="link">Мои сделки</Link>
-                    </li>
-                    <li className="menu-item">
-                        <Link to="" className="link exit">Выход</Link>
-                    </li>
-                </ul>
-            </nav>
-        </BrowserRouter>
+        <nav className="menu">
+            <ul>
+                <li className="menu-item">
+                    <Link to="/" className="link">Настройки профиля</Link>
+                </li>
+                <li className="menu-item">
+                    <Link to="favorites" className="link">Избранное</Link>
+                </li>
+                <li className="menu-item">
+                    <Link to="announcement" className="link">Мои объявления</Link>
+                </li>
+                <li className="menu-item">
+                    <Link to="" className="link">Мои сделки</Link>
+                </li>
+                <li className="menu-item">
+                    <Link to="" className="link exit">Выход</Link>
+                </li>
+            </ul>
+        </nav>
     </div>
 );
 

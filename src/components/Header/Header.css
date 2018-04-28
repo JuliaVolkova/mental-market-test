@@ -47,3 +47,10 @@ img {
     background-size: 100%;
 }
 
+@media (max-width: 320px) {
+    .close-button {
+        width: 2em;
+        height: 2em;
+    }
+}
+
