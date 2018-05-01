@@ -11,7 +11,7 @@ export const Menu = (props) => (
             <h2 className="menu-header">Мой профиль</h2>
         </div>
 
-        <nav className="menu">
+        <nav className="menu" onClick={props.handleClick}>
             <ul>
                 <li className="menu-item">
                     <Link to="/" className="link">Настройки профиля</Link>

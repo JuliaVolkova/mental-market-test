@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import { Route, Switch } from "react-router";
+import { Route, Switch } from "react-router-dom";
 import { Header } from "./components/Header/Header";
 import { Favorites } from "./components/Favorites/Favorites";
 import { Announcement } from "./components/Announcement/Announcement";
@@ -13,9 +13,9 @@ class App extends Component {
         <Fragment>
             <Header />
                 <Switch>
+                    <Route exact path="/" component={Main} />
                     <Route path="/favorites" component={Favorites} />
                     <Route path="/announcement" component={Announcement} />
-                    <Route path="/" component={Main} />
                 </Switch>
             <Footer />
         </Fragment>
